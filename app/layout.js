@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Little Italy",
-  description: "The best bakery in town!",
+  title: "Brooklyn Bakery",
+  description: "The best bakery in Brooklyn NY!",
 };
 
 export default async function RootLayout({ children }) {
@@ -28,7 +28,7 @@ export default async function RootLayout({ children }) {
       <body className="min-h-full flex flex-col">
         <div className="header">
           <div>
-            <h1>Little Italy</h1>
+            <h1>Brooklyn Bakery</h1>
             {user.isLoggedIn && <p>Logged in as {user.username ?? "user"} ({user.userRole ?? "no role"})</p>}
           </div>
           <div className="menu">
