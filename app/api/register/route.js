@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 
-const UPSTREAM_REGISTER_URL = "http://10.10.10.10/api/register.php";
+const UPSTREAM_REGISTER_URL = "http://10.10.10.20/api/register.php";
 
 function parseJsonSafe(text) {
   try {

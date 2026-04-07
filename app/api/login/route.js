@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 
-const UPSTREAM_LOGIN_URL = "http://10.10.10.10/api/login.php";
+const UPSTREAM_LOGIN_URL = "http://10.10.10.20/api/login.php";
 const COOKIE_MAX_AGE_SECONDS = 7 * 24 * 60 * 60;
 
 export async function POST(request) {
